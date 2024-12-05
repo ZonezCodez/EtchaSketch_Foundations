@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+#game {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 800px;
+}
+.boardPieces {
+    border: 1px solid black;
+}
+
+.boardPieces:hover {
+    background-color: aqua;
+}
